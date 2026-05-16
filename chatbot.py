@@ -27,5 +27,6 @@ while True:
         print("Decode: Exiting......have a nice day!")
         break
 
+    # Using dictionary lookup instead of if-else (O(1) efficiency)
     reply = responses.get(clean_input, "I'm not sure I understand. Could you rephrase that?")
     print("Decode: ", reply)
